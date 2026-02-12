@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarFlow.API", "BarFlow\BarFlow.API.csproj", "{493BA598-CF54-4EE7-BBBE-B5B560F7EB51}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarFlow.Application", "BarFlow.Application\BarFlow.Application.csproj", "{4BBB96BF-F69A-4A62-8769-7A25157651D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarFlow.Infrastructure", "BarFlow.Infrastructure\BarFlow.Infrastructure.csproj", "{D88A3C47-215D-4FB4-818A-6B4C36E083FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{20339F1A-2C8B-44E7-8169-2EDACFF29B95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D88A3C47-215D-4FB4-818A-6B4C36E083FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D88A3C47-215D-4FB4-818A-6B4C36E083FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D88A3C47-215D-4FB4-818A-6B4C36E083FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20339F1A-2C8B-44E7-8169-2EDACFF29B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20339F1A-2C8B-44E7-8169-2EDACFF29B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20339F1A-2C8B-44E7-8169-2EDACFF29B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20339F1A-2C8B-44E7-8169-2EDACFF29B95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
