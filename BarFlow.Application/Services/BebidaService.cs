@@ -23,13 +23,16 @@ namespace BarFlow.Application.Services
         public void Atualizar(Guid id, string nome, TipoBebida tipo, decimal preco)
         {
             var bebida = _bebidaRepository.ObterPorId(id);
+            
             if (bebida == null)
             {
                 throw new Exception("Bebida não encontrada.");
 
             }
-            
-            bebida.AtualizarDados(nome, tipo, preco);
+
+            bebida.Nome = nome;
+            bebida.Tipo = tipo;
+            bebida.Preco = preco;
 
             _bebidaRepository.Atualizar(bebida);
         }
@@ -38,5 +41,9 @@ namespace BarFlow.Application.Services
             return _bebidaRepository.ObterTodas();
         }
 
+        public void Remover(Guid id)
+        {
+            _bebidaRepository.Remover(id);
+        }
     }
 }
