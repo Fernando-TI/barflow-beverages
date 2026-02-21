@@ -33,7 +33,7 @@ Essa estrutura busca manter o domínio protegido e desacoplado, facilitando manu
 1. Clonar o repositório:
 
 ```
-git clone <url-do-repo>
+git clone <url-do-repositorio>
 ```
 
 2. Acessar a pasta do projeto:
@@ -48,7 +48,7 @@ cd BarFlow
 dotnet run
 ```
 
-4. Acessar Swagger:
+4. Acessar o Swagger:
 
 ```
 https://localhost:<porta>/swagger
@@ -69,6 +69,6 @@ O foco principal é evoluir a compreensão sobre estruturas de aplicações back
 
 ---
 
-## Status
+## Status do projeto:
 
-Projeto em evolução contínua 🚀
+ Em evolução contínua 🚀
