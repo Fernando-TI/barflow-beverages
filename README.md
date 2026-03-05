@@ -31,9 +31,8 @@ Essa estrutura busca manter o domínio protegido e desacoplado, facilitando manu
 ## Como executar:
 
 1. Clonar o repositório:
-
 ```
-git clone <url-do-repositorio>
+git clone https://github.com/Fernando-TI/barflow-beverages
 ```
 
 2. Acessar a pasta do projeto:
@@ -51,7 +50,7 @@ dotnet run
 4. Acessar o Swagger:
 
 ```
-https://localhost:<porta>/swagger
+https://localhost:<5000>/swagger
 ```
 
 ---
